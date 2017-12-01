@@ -1,0 +1,6 @@
+C:\Users\Jassi\source\repos\LaParisViews\Nucleo.WcfLaParis\bin\Release\Nucleo.WcfLaParis.dll
+C:\Users\Jassi\source\repos\LaParisViews\Nucleo.WcfLaParis\bin\Release\Nucleo.WcfLaParis.pdb
+C:\Users\Jassi\source\repos\LaParisViews\Nucleo.WcfLaParis\obj\Release\Nucleo.WcfLaParis.csprojResolveAssemblyReference.cache
+C:\Users\Jassi\source\repos\LaParisViews\Nucleo.WcfLaParis\obj\Release\Nucleo.WcfLaParis.csproj.CoreCompileInputs.cache
+C:\Users\Jassi\source\repos\LaParisViews\Nucleo.WcfLaParis\obj\Release\Nucleo.WcfLaParis.dll
+C:\Users\Jassi\source\repos\LaParisViews\Nucleo.WcfLaParis\obj\Release\Nucleo.WcfLaParis.pdb

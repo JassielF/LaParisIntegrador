@@ -1,0 +1,64 @@
+﻿@using Nucleo.WcfLaParis;
+
+
+@{
+    ViewBag.Title = "Promociones";
+}
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<link href="~/Content/main.css" rel="stylesheet" />
+
+<script src="~/Scripts/bootstrap.min.js"></script>
+
+<h2 id="alignProd">GRANDES DESCUENTOS</h2>
+ <br />
+
+@*<nav class="nav">
+    <ul>
+        <li class="current"><a href="#">Portfolio</a></li>
+        <li><a href="#">Illustration</a></li>
+        <li><a href="#">Web Design</a></li>
+        <li><a href="#">Print Media</a></li>
+        <li><a href="#">Graphic Design</a></li>
+    </ul>
+</nav>*@
+
+    <div class="shop-items">
+        <div class="container-fluid">
+            <div class="row">
+                @foreach (var productos in ViewBag.listProducto)
+            {
+                    if (productos.Promocion > 0)
+                    {
+                    <div class="col-md-3 col-sm-6">
+                        <div class="item">
+                            <img class="img-responsive" src="~/Content/images/color-riche-rose-loreal.png" alt="" width="200" height="200">
+                            <div class="item-dtls">
+                                <p id="letra">Nombre: @productos.Nombre</p>
+                               
+                                    <div class="item-dtls">
+                                        <p id="letra">Promoción del @productos.Promocion %</p>
+                                        <p id="letra">Código: @productos.Sku</p>
+                                    </div>
+                            </div>  
+                        </div>
+                    </div> 
+                    }
+                }          
+            </div>
+        </div>
+    </div>                
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">Anterior</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item">
+            <a class="page-link" href="#">Siguiente</a>
+        </li>
+    </ul>
+</nav>

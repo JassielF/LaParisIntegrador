@@ -1,0 +1,31 @@
+﻿
+@using Nucleo.WcfLaParis;
+
+@{
+    ViewBag.Title = "Servicio";
+}
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<link href="~/Content/main.css" rel="stylesheet" />
+
+<script src="~/Scripts/bootstrap.min.js"></script>
+
+<h2 hidden>Servicio</h2>
+
+
+@foreach (var servicio in ViewBag.listServicio)
+{
+<div class="card">
+    <img class="card-img-top" src="~/Content/images/microblading.jpg" alt="">
+    <div class="card-block">
+        <p class="card-text" id="letra">Nombre: @servicio.Nombre</p>
+        <p class="card-text" id="letra">Total: @servicio.Total</p>
+    </div>
+    <div class="ecom bg-lblue">
+        <a class="btn" href="#">Comprar servicio</a>
+    </div>
+</div>
+<br /> <br />
+}

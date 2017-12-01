@@ -1,0 +1,28 @@
+﻿@using Nucleo.WcfLaParis;
+
+@{
+    ViewBag.Title = "Establecimientos";
+}
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<link href="~/Content/main.css" rel="stylesheet" />
+
+<script src="~/Scripts/bootstrap.min.js"></script>
+
+<h2 id="sucur" hidden>Sucursales</h2>
+
+
+@foreach (var sucursal in ViewBag.listSucursal) {
+<div class="card">
+    <img class="card-img-top" src="~/Content/images/elvigia.png" alt="">
+    <div class="card-block">
+        <p class="card-text" id="letra">Nombre: @sucursal.Nombre</p>
+        <p class="card-text" id="letra">Corre eléctronico: @sucursal.Correo</p>
+        <p class="card-text" id="letra">Dirección: @sucursal.Direccion</p>
+        <p class="card-text" id="letra">Código postal: @sucursal.CodPostal</p>
+    </div>
+</div>
+<br /> <br />
+}

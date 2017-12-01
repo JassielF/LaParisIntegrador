@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "RegistroUsuario";
+}
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link href="~/Content/loginForm/loginForm.css" rel="stylesheet" />
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/Site.css" rel="stylesheet" />
+<link href="~/Content/main.css" rel="stylesheet" />
+
+<script src="~/Content/loginForm/LoginJs.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+
+<h2 hidden>RegistroUsuario</h2>
+
+<div class="container">
+    <div class="card card-container">
+        <form class="form-signin">
+            <span id="reauth-email" class="reauth-email"></span>
+            <input type="text" id="username" class="form-control" placeholder="Nombre" required autofocus>
+            <input type="text" id="username" class="form-control" placeholder="Apellido" required>
+            <input type="email" id="inputEmail" class="form-control" placeholder="E-mail" required>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
+            <input type="password" id="confirm-password" class="form-control" placeholder="Confirmar contraseña" required>
+
+            <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Registrar</button>
+        </form>
+    </div>
+</div>

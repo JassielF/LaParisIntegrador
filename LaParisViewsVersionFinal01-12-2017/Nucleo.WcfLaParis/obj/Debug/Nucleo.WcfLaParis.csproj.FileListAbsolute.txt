@@ -1,0 +1,12 @@
+C:\git\LaParisViews\Nucleo.WcfLaParis\obj\Debug\Nucleo.WcfLaParis.csprojResolveAssemblyReference.cache
+C:\git\LaParisViews\Nucleo.WcfLaParis\obj\Debug\Nucleo.WcfLaParis.csproj.CoreCompileInputs.cache
+C:\git\LaParisViews\Nucleo.WcfLaParis\bin\Debug\Nucleo.WcfLaParis.dll
+C:\git\LaParisViews\Nucleo.WcfLaParis\bin\Debug\Nucleo.WcfLaParis.pdb
+C:\git\LaParisViews\Nucleo.WcfLaParis\obj\Debug\Nucleo.WcfLaParis.dll
+C:\git\LaParisViews\Nucleo.WcfLaParis\obj\Debug\Nucleo.WcfLaParis.pdb
+C:\Users\Jassi\source\repos\LaParisViews\Nucleo.WcfLaParis\bin\Debug\Nucleo.WcfLaParis.dll
+C:\Users\Jassi\source\repos\LaParisViews\Nucleo.WcfLaParis\bin\Debug\Nucleo.WcfLaParis.pdb
+C:\Users\Jassi\source\repos\LaParisViews\Nucleo.WcfLaParis\obj\Debug\Nucleo.WcfLaParis.csprojResolveAssemblyReference.cache
+C:\Users\Jassi\source\repos\LaParisViews\Nucleo.WcfLaParis\obj\Debug\Nucleo.WcfLaParis.csproj.CoreCompileInputs.cache
+C:\Users\Jassi\source\repos\LaParisViews\Nucleo.WcfLaParis\obj\Debug\Nucleo.WcfLaParis.dll
+C:\Users\Jassi\source\repos\LaParisViews\Nucleo.WcfLaParis\obj\Debug\Nucleo.WcfLaParis.pdb
